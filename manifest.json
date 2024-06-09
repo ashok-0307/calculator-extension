@@ -1,0 +1,16 @@
+{
+    "manifest_version" : 3,
+    "name" : "Calculator Extension",
+    "version" : "1.0",
+    "description" : "can do normal calculation like addition, subtraction, multiplication and division",
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "icons" : {
+        "128" : "images/icon128.png"
+    },
+    "background" : {
+        "service_worker" : "script.js",
+        "type" : "module"
+    }
+}
